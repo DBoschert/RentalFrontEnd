@@ -9,6 +9,5 @@ export class Renter {
     phone: string = "";
     email: string = "";
 
-    landLordId: number = 0;
-    landlord: LandLord | null = null;
+    //might need a landlord FK later
 }
