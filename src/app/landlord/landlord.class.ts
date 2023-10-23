@@ -9,6 +9,8 @@ export class LandLord {
     phone: string = "";
     email: string = "";
     numOfTenants: number = 1;
+    maxNumOfTenants: number = 1;
+    companyName: string = "";
 
     renterId: number = 0;
     renter: Renter | null = null;
